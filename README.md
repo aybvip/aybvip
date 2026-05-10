@@ -1,13 +1,13 @@
 <div align="center">
 
-# Ayoub vipercoa
+# Ayoub Boukadida
 
-**Pi Network Pioneer | Open Source Contributor**
+**Pi Network Pioneer (@viperco) | Open Source Contributor**
 
 Building the future of decentralized commerce on Pi Network
 
 [![GitHub](https://img.shields.io/badge/GitHub-aybvip-181717?style=flat-square&logo=github)](https://github.com/aybvip)
-[![Pi Network](https://img.shields.io/badge/Pi%20Network-Pioneer-6B46F5?style=flat-square)](https://minepi.com)
+[![Pi Network](https://img.shields.io/badge/Pi%20Network-@viperco-6B46F5?style=flat-square)](https://minepi.com)
 [![Location](https://img.shields.io/badge/Location-Tunisia-00875A?style=flat-square)](https://en.wikipedia.org/wiki/Tunisia)
 [![Rust](https://img.shields.io/badge/Rust-Soroban-DEA584?style=flat-square&logo=rust)](https://soroban.stellar.org)
 [![React](https://img.shields.io/badge/React-TypeScript-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
@@ -67,7 +67,7 @@ Decentralized Commerce Trust Protocol — on-chain trust infrastructure for Pi N
 ## Connect
 
 - **GitHub**: [aybvip](https://github.com/aybvip)
-- **Pi Network**: Pioneer
+- **Pi Network**: @viperco
 - **Location**: Tunisia
 
 ---
