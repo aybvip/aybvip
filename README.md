@@ -1,6 +1,31 @@
 ### Ayoub Boukadida · `@viperco`
 
-Pi Network Pioneer · Open Source Contributor · Building decentralized commerce with **PiDCTP** & **Pi Visual Builder**
+Pi Network Pioneer · Open Source Contributor · building decentralized commerce with **PiDCTP** & **Pi Visual Builder**
+
+---
+
+## Projects
+
+| Project | What it is | Status |
+|---|---|---|
+| [**π = π — Pi fungibility proof**](https://github.com/aybvip/pi-fungibility) | Source-verified, dependency-free proof that mined π and exchange π are the same native asset | ✅ **Verified and runnable** · MIT |
+| [**Pi payment reference**](https://github.com/aybvip/aybvip/blob/main/server.js) | A working Pi payment integration: `server.js` plus Netlify functions for `approve` / `complete` / `cancel` | ⚠️ **Working code** — documentation pending |
+| [**Pi Visual Builder**](https://github.com/aybvip/Pi-Visual-Builder) | Design specification and static UI mockups for a visual, no-code app builder on Pi Network | 📄 **Proposal — no implementation yet** |
+
+**Honest note on Pi Visual Builder:** it is a specification and mockups, not a product. There is no
+application code in that repository. The "PiRC4" name is a placeholder — the official
+[`PiNetwork/PiRC`](https://github.com/PiNetwork/PiRC) repository contains only `PiRC1` and `PiRC2`, and
+[Issue #381](https://github.com/PiNetwork/PiRC/issues/381) / [PR #382](https://github.com/PiNetwork/PiRC/pull/382)
+are open and unassigned.
+
+## How I work
+
+A claim is only worth as much as the evidence someone else can rerun.
+
+- **Official sources only**, quoted verbatim and pinned to a specific revision.
+- **Runnable, dependency-free proofs** — no install step, no build step, `node` and nothing else.
+- **Explicit scope** — what is proven, what is merely verifiable per case, and what is *not* claimed.
+- **Limitations stated on the page**, not hidden. "Not independently audited" is printed on the work itself.
 
 ---
 
@@ -24,7 +49,7 @@ Mined π and π withdrawn from an exchange are the **same native asset**.
 ```bash
 git clone https://github.com/aybvip/pi-fungibility
 cd pi-fungibility
-node examples/run-all.mjs          # everything at once (+ summary)
+node examples/run-all.mjs           # everything at once (+ summary)
 node examples/run-all.mjs --offline # skip network checks
 ```
 
