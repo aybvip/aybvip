@@ -9,7 +9,7 @@ Pi Network Pioneer · Open Source Contributor · building decentralized commerce
 | Project | What it is | Status |
 |---|---|---|
 | [**π = π — Pi fungibility proof**](https://github.com/aybvip/pi-fungibility) | Source-verified, dependency-free proof that mined π and exchange π are the same native asset | ✅ **Verified and runnable** · MIT |
-| [**Pi payment reference**](https://github.com/aybvip/aybvip/blob/main/server.js) | A working Pi payment integration: `server.js` plus Netlify functions for `approve` / `complete` / `cancel` | ⚠️ **Working code** — documentation pending |
+| [**Pi payment reference**](https://github.com/aybvip/aybvip/tree/archive/payment-app) | A working Pi payment integration: `server.js` plus Netlify functions for `approve` / `complete` / `cancel` | 📦 **Archived** — kept off `main` on the [`archive/payment-app`](https://github.com/aybvip/aybvip/tree/archive/payment-app) branch |
 | [**Pi Visual Builder**](https://github.com/aybvip/Pi-Visual-Builder) | Design specification and static UI mockups for a visual, no-code app builder on Pi Network | 📄 **Proposal — no implementation yet** |
 
 **Honest note on Pi Visual Builder:** it is a specification and mockups, not a product. There is no
