@@ -27,7 +27,7 @@ Each one prints what it can prove and what it cannot.
 | Project | The question it answers |
 |---|---|
 | [**pi-soroban-events**](https://github.com/aybvip/pi-soroban-events) | What does the Pi Soroban RPC's `getEvents` actually do? (There is **no** ~10 000-ledger cap; the real footguns are different.) |
-| [**pi-event-integrity**](https://github.com/aybvip/pi-event-integrity) | Which ledger ranges can be **proven** covered, and which are only a lower bound — with a replayable SHA-256 digest. |
+| [**pi-event-integrity**](https://github.com/aybvip/pi-event-integrity) | Which ledger ranges can be **proven** covered, and which are only a lower bound — with a replayable SHA-256 digest, plus event identity: duplicate/gap detection, resume, and independent-source comparison. |
 | [**pi-contract-simulator**](https://github.com/aybvip/pi-contract-simulator) | What does a contract simulation return on Pi Testnet, and how do its failures classify? Never signs or submits. |
 | [**pi-contract-upgrade-trail**](https://github.com/aybvip/pi-contract-upgrade-trail) | How has a contract's `wasmHash` changed across deployments? |
 | [**pi-gap-index**](https://github.com/aybvip/pi-gap-index) | What is measurably missing from the public Pi developer surface, and what would a read contract look like? |
