@@ -31,6 +31,7 @@ Each one prints what it can prove and what it cannot.
 | [**pi-contract-simulator**](https://github.com/aybvip/pi-contract-simulator) | What does a contract simulation return on Pi Testnet, and how do its failures classify? Never signs or submits. |
 | [**pi-contract-upgrade-trail**](https://github.com/aybvip/pi-contract-upgrade-trail) | How has a contract's `wasmHash` changed across deployments? |
 | [**pi-gap-index**](https://github.com/aybvip/pi-gap-index) | What is measurably missing from the public Pi developer surface, and what would a read contract look like? |
+| [**pi-api-contract-registry**](https://github.com/aybvip/pi-api-contract-registry) | What do Pi's Soroban RPC methods **actually** return — with wire types — and where does behaviour drift from what a spec-following client expects? Re-measurable live. |
 | [**pi-user-behavior**](https://github.com/aybvip/pi-user-behavior) | What user behavior is observable on the Pi blockchain — and what is **not**. |
 | [**pi-contribution-evidence-model**](https://github.com/aybvip/pi-contribution-evidence-model) | A reference model for a contribution evidence layer, with executable invariants. Offline; no personal data; no combined score. |
 | [**pi-app-security-scanner**](https://github.com/aybvip/pi-app-security-scanner) | Does a Pi app's source contain documented SDK anti-patterns? Every rule is anchored to a verbatim official quote. Executes nothing. |
