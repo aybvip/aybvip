@@ -9,6 +9,7 @@ Pi Network Pioneer · Open Source Contributor · building decentralized commerce
 | Project | What it is | Status |
 |---|---|---|
 | [**π = π — Pi fungibility proof**](https://github.com/aybvip/pi-fungibility) | Source-verified, dependency-free proof that mined π and exchange π are the same native asset | ✅ **Verified and runnable** · MIT |
+| [**Pi fixed supply**](https://github.com/aybvip/pi-fixed-supply) | Every ledger header examined on Pi Mainnet reports `totalCoins = 100,000,000,000 π`, with SHA-256-verified raw header bytes | ✅ **Verified and runnable** · MIT |
 | [**Pi payment reference**](https://github.com/aybvip/aybvip/tree/archive/payment-app) | A working Pi payment integration: `server.js` plus Netlify functions for `approve` / `complete` / `cancel` | 📦 **Archived** — kept off `main` on the [`archive/payment-app`](https://github.com/aybvip/aybvip/tree/archive/payment-app) branch |
 | [**Pi Visual Builder**](https://github.com/aybvip/Pi-Visual-Builder) | Design specification and static UI mockups for a visual, no-code app builder on Pi Network | 📄 **Proposal — no implementation yet** |
 
@@ -18,6 +19,31 @@ application code in that repository. The "PiRC4" name is a placeholder — the o
 [Issue #381](https://github.com/PiNetwork/PiRC/issues/381) / [PR #382](https://github.com/PiNetwork/PiRC/pull/382)
 are open and unassigned.
 
+### Measurement tooling
+
+Read-only, zero-dependency tools that answer a question **with a measurement** rather than an opinion.
+Each one prints what it can prove and what it cannot.
+
+| Project | The question it answers |
+|---|---|
+| [**pi-soroban-events**](https://github.com/aybvip/pi-soroban-events) | What does the Pi Soroban RPC's `getEvents` actually do? (There is **no** ~10 000-ledger cap; the real footguns are different.) |
+| [**pi-event-integrity**](https://github.com/aybvip/pi-event-integrity) | Which ledger ranges can be **proven** covered, and which are only a lower bound — with a replayable SHA-256 digest. |
+| [**pi-contract-simulator**](https://github.com/aybvip/pi-contract-simulator) | What does a contract simulation return on Pi Testnet, and how do its failures classify? Never signs or submits. |
+| [**pi-contract-upgrade-trail**](https://github.com/aybvip/pi-contract-upgrade-trail) | How has a contract's `wasmHash` changed across deployments? |
+| [**pi-gap-index**](https://github.com/aybvip/pi-gap-index) | What is measurably missing from the public Pi developer surface, and what would a read contract look like? |
+| [**pi-user-behavior**](https://github.com/aybvip/pi-user-behavior) | What user behavior is observable on the Pi blockchain — and what is **not**. |
+| [**pi-contribution-evidence-model**](https://github.com/aybvip/pi-contribution-evidence-model) | A reference model for a contribution evidence layer, with executable invariants. Offline; no personal data; no combined score. |
+| [**pi-app-security-scanner**](https://github.com/aybvip/pi-app-security-scanner) | Does a Pi app's source contain documented SDK anti-patterns? Every rule is anchored to a verbatim official quote. Executes nothing. |
+
+### Pi NFT and asset work
+
+| Project | What it is |
+|---|---|
+| [**pi-nft-provenance**](https://github.com/aybvip/pi-nft-provenance) | Reads a transaction, its ledger, operations and effects. |
+| [**pi-nft-fee-check**](https://github.com/aybvip/pi-nft-fee-check) | Reconciles declared fees against on-chain events. |
+| [**pi-zk-nft-gate**](https://github.com/aybvip/pi-zk-nft-gate) | A zero-knowledge NFT gate, read-only. |
+| [**pi-muxed-guard**](https://github.com/aybvip/pi-muxed-guard) | Guards against muxed-address handling mistakes in Pi integrations. |
+
 ## How I work
 
 A claim is only worth as much as the evidence someone else can rerun.
@@ -26,6 +52,8 @@ A claim is only worth as much as the evidence someone else can rerun.
 - **Runnable, dependency-free proofs** — no install step, no build step, `node` and nothing else.
 - **Explicit scope** — what is proven, what is merely verifiable per case, and what is *not* claimed.
 - **Limitations stated on the page**, not hidden. "Not independently audited" is printed on the work itself.
+- **Measurement over opinion** — tools probe the live public surface before asserting anything about it.
+- **No unbacked claims** — prior-art statements say "no prior work found", never "first"; adoption by Pi Network is always `not-claimed`.
 
 ---
 
