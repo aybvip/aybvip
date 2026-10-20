@@ -36,6 +36,7 @@ Each one prints what it can prove and what it cannot.
 | [**pi-contribution-evidence-model**](https://github.com/aybvip/pi-contribution-evidence-model) | A reference model for a contribution evidence layer, with executable invariants. Offline; no personal data; no combined score. |
 | [**pi-app-security-scanner**](https://github.com/aybvip/pi-app-security-scanner) | Does a Pi app's source contain documented SDK anti-patterns? Every rule is anchored to a verbatim official quote. Executes nothing. |
 | [**pi-chaos-lab**](https://github.com/aybvip/pi-chaos-lab) | What does the Pi Soroban RPC do when a request is **wrong**? Measures the failure shapes (HTTP 200 with an error, HTTP 204 empty body, silent empty ranges, ignored `limit`) and replays them **offline** to test client error handling. Never attacks or floods. |
+| [**pi-proofkit**](https://github.com/aybvip/pi-proofkit) | How do I make a claim **checkable without trusting its author**? Packages claims + evidence + a SHA-256 over a fully-specified canonical form, so anyone can recompute the digest by hand. A digest proves **integrity, not truth**. |
 
 ### Pi NFT and asset work
 
