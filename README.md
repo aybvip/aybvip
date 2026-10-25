@@ -10,6 +10,7 @@ Pi Network Pioneer · Open Source Contributor · building decentralized commerce
 |---|---|---|
 | [**π = π — Pi fungibility proof**](https://github.com/aybvip/pi-fungibility) | Source-verified, dependency-free proof that mined π and exchange π are the same native asset | ✅ **Verified and runnable** · MIT |
 | [**Pi fixed supply**](https://github.com/aybvip/pi-fixed-supply) | Every ledger header examined on Pi Mainnet reports `totalCoins = 100,000,000,000 π`, with SHA-256-verified raw header bytes | ✅ **Verified and runnable** · MIT |
+| [**pi-ecosystem-mcap**](https://github.com/aybvip/pi-ecosystem-mcap) | Independent analysis of Pi ecosystem market-cap mechanics at activation: PiDEX liquidity, OUSD, AI Tokens, NFTs, CiDi Games case study — confirmed facts vs speculation | ✅ **Live site + tools** · MIT |
 | [**Pi payment reference**](https://github.com/aybvip/aybvip/tree/archive/payment-app) | A working Pi payment integration: `server.js` plus Netlify functions for `approve` / `complete` / `cancel` | 📦 **Archived** — kept off `main` on the [`archive/payment-app`](https://github.com/aybvip/aybvip/tree/archive/payment-app) branch |
 | [**Pi Visual Builder**](https://github.com/aybvip/Pi-Visual-Builder) | Design specification and static UI mockups for a visual, no-code app builder on Pi Network | 📄 **Proposal — no implementation yet** |
 
@@ -67,8 +68,7 @@ Source-verified, dependency-free, read-only proof that Pi Network's native asset
 Mined π and π withdrawn from an exchange are the **same native asset**.
 
 - 🌐 **Website / all pages:** <https://aybvip.github.io/pi-fungibility/>
-- 📦 **Repository:** <https://github.com/aybvip/pi-fungibility>
-- 📄 **The proof, step by step:** <https://aybvip.github.io/pi-fungibility/PROOF.html>
+- 📦 **Repository:** <https://github.com/aybvip/pi-fungibility>- 📄 **The proof, step by step:** <https://aybvip.github.io/pi-fungibility/PROOF.html>
 - 🧭 **Index — every file, by file and by question:** <https://aybvip.github.io/pi-fungibility/docs/INDEX.html>
 - 🎯 **Scope — what is proven vs NOT claimed:** <https://aybvip.github.io/pi-fungibility/docs/SCOPE.html>
 - 📚 **Sources — verbatim quotes from official docs:** <https://aybvip.github.io/pi-fungibility/docs/SOURCES.html>
@@ -95,3 +95,19 @@ node examples/run-all.mjs --offline # skip network checks
 Also **not** claimed: price, identity-hiding, IOU equivalence, or an independent audit.
 
 > Independent & unofficial — not affiliated with Pi Network. **Not independently audited** (self-verified and reproducible). MIT licensed.
+
+---
+
+## pi-ecosystem-mcap
+
+Independent analysis of Pi ecosystem market-cap mechanics at ecosystem activation:
+**how value flows through PiDEX, OUSD, AI Tokens, NFTs — with CiDi Games as a live case study.**
+Separates what is officially confirmed from community speculation.
+
+- 🌐 **Website + interactive flow visualizer:** <https://aybvip.github.io/pi-ecosystem-mcap/>
+- 🎨 **Ecosystem Flow Viz (animated canvas):** <https://aybvip.github.io/pi-ecosystem-mcap/viz.html>
+- 📦 **Repository:** <https://github.com/aybvip/pi-ecosystem-mcap>
+- 🎮 **CiDi Games case study:** <https://aybvip.github.io/pi-ecosystem-mcap/docs/CASE_CIDI>
+- 🚀 **PiRC Launchpad analysis:** <https://aybvip.github.io/pi-ecosystem-mcap/docs/LAUNCHPAD_PIRC>
+- ⚖️ **Ecosystem comparison (Pi vs BNB vs Solana):** <https://aybvip.github.io/pi-ecosystem-mcap/docs/ECOSYSTEM_COMPARE>
+- 🤖 **Machine-readable index:** <https://aybvip.github.io/pi-ecosystem-mcap/llms.txt>
